@@ -1,12 +1,12 @@
 <template>
   <div class="row p-3 bg-primary text-white">
     <div class="col-lg-1">
-    <img src="/asset/img/LOGO.png"alt="Logo" width="80">
+      <img src="/asset/img/LOGO.png" alt="Logo" width="80">
     </div>
     
     <div class="col-lg-11">
-    <h1>Perpus-Digital</h1>
-    <address>SMKN 4 Tasikmalaya JL.Depok,Sukamenak,Purbaratu</address>
+      <h1>Perpus-Digital</h1>
+      <address>SMKN 4 Tasikmalaya JL.Depok,Sukamenak,Purbaratu</address>
     </div>
   </div>
 </template> 

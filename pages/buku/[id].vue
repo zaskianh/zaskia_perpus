@@ -43,8 +43,8 @@ const buku = ref([])
 
 const getBukuByID = async () => {
     const { data, error } = await supabase
-    .from('Buku')
-    .select(`*, kategori(*)`)
+    .from('buku')
+    .select(`*, kategori_buku(*)`)
     .eq('id', route.params.id)
     if(data) buku.value = data[0]
 }

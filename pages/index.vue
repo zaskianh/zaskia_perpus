@@ -51,20 +51,20 @@
 
 
 <style scoped>
-    .card {
-        height: 250px;
-        box-shadow: 1px 1px 10px #4653c7
-    }
-    .card.bg-pengunjung {
-        background-image: url("/asset/img/bg-home-kunjungan.webp");
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-    }
-    .card.bg-buku {
-        background: url("/asset/img/bg-home-cari-buku.webp");
-        background-repeat: no-repeat; 
-        background-position: center center; 
-        background-size: cover;
-    }
+.card {
+    height: 250px;
+    box-shadow: 1px 1px 10px #4653c7
+}
+.card.bg-pengunjung {
+    background-image: url("/asset/img/bg-home-kunjungan.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.card.bg-buku {
+    background: url("/asset/img/bg-home-cari-buku.webp");
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-size: cover;
+}
 </style>
